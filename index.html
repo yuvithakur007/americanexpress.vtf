@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" lang='en-us' content="text/html; charset=utf-8" />
+    <title>American Express - Confirm and Set Up your Card</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="AXP_CenterContent AXP_Responsive newNav">
+    <script type='text/javascript' src='https://cdaas.americanexpress.com/myca/oce/latest/content/js/common/js/rwd.js'></script>
+
+    <script type='text/javascript' src='https://www.aexp-static.com/cdaas/api/testtarget/maxymiser/1.13.0/mmcore.js'></script>
+    <div id="responsiveWrapper_main">
+        <div id="responsiveWrapper_sub">
+            <div>
+                <div class="dav-header">
+                    <div class="dav-amex-logo">
+                        <a class="oce_amex_logo" img src= "assest/dls-logo-line.svg"><span class="amex-dls-logo"></span></a>
+                    </div>
+                </div>
+
+                <div id="oce-main-container" class=" oce-main-container-en_US">
+                    <div id="oce-content-container">
+                        <oce-progress>
+                            <div class="oce-progress-tracker-wrapper" id="oce-progress-tracker"><div class="oce-progress-bar-container"><div class="oce-progress-bar-content steps-3 active-step animated"  tabindex="0">
+                                        <div class="step-wrapper"> <span class="oce-progress-bar-step"> 1. </span> 
+                                            <span class="oce-progress-bar-step-desc ng-scope" translate="progressbar.stepOne">Get Started</span> </div>
+                                        <div class="track-filler"></div>
+                                    </div>
+                                    <div class="oce-progress-bar-content steps-3" ng-class="[progressState2]" tabindex="0">
+                                        <div class="step-wrapper"> <span class="oce-progress-bar-step"> 2. </span> 
+                                            <span class="oce-progress-bar-step-desc ng-scope" translate="progressbar.stepTwo">Set Up</span>
+                                        </div>
+                                        <div class="track-filler"></div>
+                                    </div>
+                                    <div class="oce-progress-bar-content steps-3 last-step" ng-class="[progressState3]" tabindex="0">
+                                        <div class="step-wrapper"> <span class="oce-progress-bar-step"> 3. </span> 
+                                            <span class="oce-progress-bar-step-desc ng-scope" translate="progressbar.stepThree">Finish</span>
+                                        </div>
+                                        <div class="track-filler"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </oce-progress>
+                        
+                        <div class="oce-main-animate-block clearfix">
+                            <div ng-class="animationClass" ui-view="" class="ng-scope"><track-layer page="CardInput" class="ng-scope ng-isolate-scope"></track-layer> <div ui-view="" class="ng-scope"></div><oce-log-flow type="info" flow="ui" class="ng-scope"><div class="oce-main-form-container oce-main-form-card-input-container redesign">
+                                        <h2 tabindex="-1"><div translate="cardInput.labels.header" class="ng-scope">Welcome!</div>
+                                            <div class="ng-scope">Enter your details to set up your new Card.</div>
+                                        </h2>
+                                        <div id="oce-card-input-main-wrapper">
+                                            <div id="oce-card-activation-form-wrapper" class="oce-card-input-block"><form name="activationCntrl.activationform" class="ng-pristine ng-invalid ng-invalid-required ng-valid-minlength ng-valid-maxlength"><div class="oce-register-error ng-hide"tabindex="0"></div>
+                                                    <div id="cm15-input-block" class="validated-text-input-block"><div class="validated-text-input-label"> <label for="ccnumber" class="ng-scope">15-digit Card Number</label> <span class="dls-info-icon"></span> </div>
+                                                        <div class="validation-input-and-icon-wrapper"><input  name="ccnumber" type="tel" id="ccnumber" placeholder="XXXX - XXXXXX - XXXXX" class="validated-text-input ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required ng-valid-maxlength"> </div>
+                                                    </div>
+
+                                                    <div id="cid-input-block" class="validated-text-input-block"><div class="validated-text-input-label"> <label   class="ng-scope">4-digit Card ID</label> <span class="dls-info-icon"></span> </div>
+                                                        <div class="validation-input-and-icon-wrapper"><input name="cid" id="cid"  placeholder="XXXX" inputmode="numeric" style="-webkit-text-security: disc;" class="validated-text-input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-minlength ng-valid-maxlength"> </div>
+                                                    </div>
+
+                                                    <button type="submit" class="primary-button ng-scope" >Confirm</button>
+                                                </form>
+                                            </div>
+
+                                            <div id="oce-card-input-graphic-wrapper" class="oce-card-input-block">
+                                                <div class="card-input-graphic-desc"> <span  class="ng-scope">The location of your Card details may differ depending on your Card.</span> </div>
+                                                <figure class="card-cm15-image-double card-graphic-figure ng-scope">
+                                                    <div class="card-cm15-image-label-container"> <span id="card-cm15-image-label-front" class="card-input-image-label ng-scope">Front</span>
+                                                        <span id="card-cm15-image-label-back"class="card-input-image-label ng-scope">Back</span>
+                                                    </div> 
+                                                    <img src="https://cdaas.americanexpress.com/myca/oce/latest/content/images/common/cm15-double-card.png">
+                                                    <div class="figcaption-container"> <figcaption class="ng-scope">15-Digit Card Number</figcaption></div>
+                                                </figure>
+                                                <figure class="card-cid-image-double card-cid-image card-graphic-figure ng-scope" >
+                                                    <div class="card-cm15-image-label-container"> </div>
+                                                     <img  src="https://cdaas.americanexpress.com/myca/oce/latest/content/images/common/cid-double.png">
+                                                    <div class="figcaption-container">
+                                                        <figcaption  class="ng-scope">4-Digit Card ID</figcaption>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="oce-grey-layer">
+                                            <div class="oce-spinner"></div>
+                                        </div>
+                                    </div>
+                                </oce-log-flow>
+                            </div>
+                        </div>
+                    </div>
+
+<br><br>
+                           <!-- footer  -->
+                       
+                        <div class="">
+                            <div class="axp-footer__dls-module__module___1_EeR noindex">
+                                <footer data-module-name="axp-footer"
+                                    class="axp-footer__footer__footer___328qd axp-footer__dls-module__pad1B___319TY axp-footer__dls-module__dlsWhiteBg___2unIs"
+                                    role="contentinfo">
+                                    <div class="axp-footer__dls-module__hiddenSmDown___7zgQf axp-footer__footer__navContainer___1AG6m axp-footer__dls-module__container___1xEgQ axp-footer__dls-module__widthFull___3ApM9">
+                                        <div class="axp-footer__dls-module__pad3B___1J3uF axp-footer__dls-module__row___3H3xq">
+                                            <div class="axp-footer__footer__footerSection___3zipI axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colLg3___2wVa6 axp-footer__dls-module__colMd6___22fwT axp-footer__dls-module__pad3T___SVukA">
+                                                <h2  class="axp-footer__dls-module__heading1___1W4S5 axp-footer__dls-module__dlsGray05___3Bige"> About</h2>
+                                                <ul class="axp-footer__dls-module__margin0___3S0s6 axp-footer__dls-module__margin2T___1dpgR axp-footer__dls-module__listLinks___DsWOZ">
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">About AmericanExpress</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Investor Relations</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Careers</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Global Network</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Contact Us</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Amex Mobile App</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="axp-footer__footer__footerSection___3zipI axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colLg3___2wVa6 axp-footer__dls-module__colMd6___22fwT axp-footer__dls-module__pad3T___SVukA">
+                                                <h2 class="axp-footer__dls-module__heading1___1W4S5 axp-footer__dls-module__dlsGray05___3Bige"> Products &amp; Services</h2>
+                                                <ul class="axp-footer__dls-module__margin0___3S0s6 axp-footer__dls-module__margin2T___1dpgR axp-footer__dls-module__listLinks___DsWOZ">
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Credit Cards</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Business Credit Cards</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Corporate Programs</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN" >Prepaid Cards</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Savings Accounts &amp; CDs</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Gift Cards</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="axp-footer__footer__footerSection___3zipI axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colLg3___2wVa6 axp-footer__dls-module__colMd6___22fwT axp-footer__dls-module__pad3T___SVukA">
+                                                <h2 class="axp-footer__dls-module__heading1___1W4S5 axp-footer__dls-module__dlsGray05___3Bige">
+                                                    Links You May Like</h2>
+                                                <ul class="axp-footer__dls-module__margin0___3S0s6 axp-footer__dls-module__margin2T___1dpgR axp-footer__dls-module__listLinks___DsWOZ">
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Membership Rewards</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Free Credit Score &amp; Report</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">CreditSecure®</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Bluebird</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Accept Amex Cards</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Refer  A Friend</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="axp-footer__footer__footerSection___3zipI axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colLg3___2wVa6 axp-footer__dls-module__colMd6___22fwT axp-footer__dls-module__pad3T___SVukA">
+                                                <h2 class="axp-footer__dls-module__heading1___1W4S5 axp-footer__dls-module__dlsGray05___3Bige"> Additional Information</h2>
+                                                <ul class="axp-footer__dls-module__margin0___3S0s6 axp-footer__dls-module__margin2T___1dpgR axp-footer__dls-module__listLinks___DsWOZ">
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Credit Intel – Financial Education Center</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Supplier Diversity</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Credit 101</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Money Management 101</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">US Newcomers</a></li>
+                                                    <li><a class="axp-footer__dls-module__textWrap___3wMeN">Frequently Asked Questions</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="axp-footer__dls-module__padT___EykJE axp-footer__footer__navContainer___1AG6m axp-footer__dls-module__container___1xEgQ axp-footer__dls-module__widthFull___3ApM9 axp-footer__dls-module__hiddenMdUp___2R91O" data-toggle="nav">
+                                        <input type="radio" class="axp-footer__dls-module__srOnly___u78M4" id="nav-vert-menu-closer" name="nav-vert-menu-opener" aria-label="navigation menu closer" />
+                                    <ul class="axp-footer__dls-module__navMenu___2v96a axp-footer__footer__navVertMenuContainer___3ZmD_">
+                                        <li class="axp-footer__footer__navVertMenuItem___2ZfTD"><input type="radio" class="axp-footer__dls-module__srOnly___u78M4 axp-footer__footer__navMenuControlOpen___2oDz2" id="nav-vert-menu-opener-about-0" name="nav-vert-menu-opener" /><label for="nav-vert-menu-opener-about-0" class="axp-footer__footer__navVertMenuOpener___332Ws axp-footer__dls-module__dlsGray01BgHvr___11WMs axp-footer__dls-module__margin0___3S0s6"><span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span><a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">About</a></label>
+                                                    <label class="axp-footer__dls-module__dlsGray03Bg___3O2I6 axp-footer__dls-module__margin0___3S0s6 axp-footer__footer__navVertMenuCloser___34a8L" for="nav-vert-menu-closer"><span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span>
+                                                    <a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">About</a></label>
+                                            <div class="axp-footer__dls-module__navMenu___2v96a axp-footer__footer__navVertSubmenu___1QMkq" id="about-submenu">
+                                                <ul role="menu">
+                                                    <ul role="menu">
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">About American Express</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Investor Relations</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Careers</a>
+                                                        </li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Global Network</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Contact Us</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Amex Mobile App</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+
+                                            <li class="axp-footer__footer__navVertMenuItem___2ZfTD"><input type="radio" class="axp-footer__dls-module__srOnly___u78M4 axp-footer__footer__navMenuControlOpen___2oDz2"id="nav-vert-menu-opener-products-services-1" name="nav-vert-menu-opener" /><label for="nav-vert-menu-opener-products-services-1" class="axp-footer__footer__navVertMenuOpener___332Ws axp-footer__dls-module__dlsGray01BgHvr___11WMs axp-footer__dls-module__margin0___3S0s6"><span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span><a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">Products &amp; Services</a></label>
+                                                        <label class="axp-footer__dls-module__dlsGray03Bg___3O2I6 axp-footer__dls-module__margin0___3S0s6 axp-footer__footer__navVertMenuCloser___34a8L" for="nav-vert-menu-closer"><span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span>
+                                                            <a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">Products &amp; Services</a></label>
+                                                <div class="axp-footer__dls-module__navMenu___2v96a axp-footer__footer__navVertSubmenu___1QMkq" id="products-services-submenu">
+                                                    <ul role="menu">
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Credit Cards</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Business Credit Cards</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Corporate Programs</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Prepaid Cards</a></li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Savings Accounts &amp; CDs</a> </li>
+                                                        <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Gift Cards</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+
+                                            <li class="axp-footer__footer__navVertMenuItem___2ZfTD"><input type="radio"class="axp-footer__dls-module__srOnly___u78M4 axp-footer__footer__navMenuControlOpen___2oDz2" id="nav-vert-menu-opener-links-you-may-like-2" name="nav-vert-menu-opener" /> <label for="nav-vert-menu-opener-links-you-may-like-2" class="axp-footer__footer__navVertMenuOpener___332Ws axp-footer__dls-module__dlsGray01BgHvr___11WMs axp-footer__dls-module__margin0___3S0s6"><span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span><a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">Links You May Like</a></label>
+                                                    <label class="axp-footer__dls-module__dlsGray03Bg___3O2I6 axp-footer__dls-module__margin0___3S0s6 axp-footer__footer__navVertMenuCloser___34a8L"for="nav-vert-menu-closer"><span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span>
+                                                        <a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">Links You May Like</a></label>
+                                            <div class="axp-footer__dls-module__navMenu___2v96a axp-footer__footer__navVertSubmenu___1QMkq" id="links-you-may-like-submenu">
+                                                <ul role="menu">
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Membership Rewards</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Free Credit Score &amp; Report</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">CreditSecure®</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Bluebird</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Accept Amex Cards</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Refer A Friend</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="axp-footer__footer__navVertMenuItem___2ZfTD"><input type="radio" class="axp-footer__dls-module__srOnly___u78M4 axp-footer__footer__navMenuControlOpen___2oDz2" id="nav-vert-menu-opener-additional-information-3" name="nav-vert-menu-opener" />
+                                                <label for="nav-vert-menu-opener-additional-information-3"
+                                                class="axp-footer__footer__navVertMenuOpener___332Ws axp-footer__dls-module__dlsGray01BgHvr___11WMs axp-footer__dls-module__margin0___3S0s6">
+                                                <span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span>
+                                                <a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">Additional Information</a></label>
+                                                    <label class="axp-footer__dls-module__dlsGray03Bg___3O2I6 axp-footer__dls-module__margin0___3S0s6 axp-footer__footer__navVertMenuCloser___34a8L" for="nav-vert-menu-closer"><span class="axp-footer__dls-module__caret___3BPtC axp-footer__dls-module__positionAbsolute___3JgzZ axp-footer__footer__navCaret___1jk05"></span><a class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__transparent___1n9n3">Additional Information</a></label>
+                                            <div class="axp-footer__dls-module__navMenu___2v96a axp-footer__footer__navVertSubmenu___1QMkq"
+                                                id="additional-information-submenu">
+                                                <ul role="menu">
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Credit Intel – Financial Education Center</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Supplier Diversity</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Credit 101</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh" ><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Money Management 101</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">US Newcomers</a></li>
+                                                    <li class="axp-footer__footer__navVertSubmenuItem___2ArTh"><a class="axp-footer__dls-module__dlsGray01Bg___ZmrCk axp-footer__dls-module__dlsGray02BgHvr___zz6Zr axp-footer__dls-module__textWrap___3wMeN">Frequently Asked Questions</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                    <hr class="axp-footer__footer__navContainer___1AG6m axp-footer__dls-module__container___1xEgQ axp-footer__dls-module__widthFull___3ApM9" />
+                                    <div class="axp-footer__footer__navContainer___1AG6m axp-footer__dls-module__container___1xEgQ axp-footer__dls-module__widthFull___3ApM9">
+                                        <div class="axp-footer__dls-module__pad3T___SVukA axp-footer__dls-module__row___3H3xq">
+                                            <div class="axp-footer__footer__amexLogo___GQ561 axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colSm8___vvcgU axp-footer__dls-module__pad3B___1J3uF axp-footer__dls-module__colMd8___2_bMZ">
+                                                <span><img src="assest/dls-logo-line.svg"/></span>
+                                            </div>
+                                            <div class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colSm12___3QD3p axp-footer__dls-module__colMd12___3KJgk axp-footer__dls-module__textAlignRightLgUp___RJJ0x axp-footer__dls-module__widthFull___3ApM9 axp-footer__dls-module__colLg4___39ika axp-footer__dls-module__pad3B___1J3uF ">
+                                                <span><span class="flag-US"><img  class="country-flag"src="assest/dls-flag-us.svg"/></span>
+                                                    <span class="axp-footer__footer__countryName___2ybHn">United States</span><a >Change Country</a></span><span class="axp-footer__footer__changeLanguage___3Xrop"></span>
+                                            </div>
+
+                                            <div class="axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colXs12___29EFm axp-footer__footer__socialLinks___gAAHr ">
+                                                <ul class="axp-footer__dls-module__pad0L___1qWAG axp-footer__dls-module__margin0Tb___Dloq8">
+                                                    <li><a class="axp-footer__dls-module__icon___3MnX8 axp-footer__dls-module__iconHover___3jtI0"><img src="assest/fb.png"/></a>
+                                                    </li>
+                                                    <li><a class="axp-footer__dls-module__icon___3MnX8 axp-footer__dls-module__iconHover___3jtI0"><img src="assest/twitter.png" /></a>
+                                                    </li>
+                                                    <li><a class="axp-footer__dls-module__icon___3MnX8 axp-footer__dls-module__iconHover___3jtI0"><img src="assest/insta.png" /></a>
+                                                    </li>
+                                                    <li><a class="axp-footer__dls-module__icon___3MnX8 axp-footer__dls-module__iconHover___3jtI0"><img src="assest/linked.png" /></a>
+                                                    </li>
+                                                    <li><a class="axp-footer__dls-module__icon___3MnX8 axp-footer__dls-module__iconHover___3jtI0"><img src="assest/yt.png" /></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colXs12___29EFm   axp-footer__dls-module__pad3B___1J3uF">
+                                                <div class="axp-footer__footer__legalLinksItem___biaXF">
+                                                    <ul class="axp-footer__dls-module__margin0___3S0s6 axp-footer__dls-module__listLinksInlineSeparator___25k9b">
+                                                        <li><a class="axp-footer__dls-module__textWrap___3wMeN">Terms of Service</a></li>
+                                                        <li><a class="axp-footer__dls-module__textWrap___3wMeN">Privacy Center</a></li>
+                                                        <li><a class="axp-footer__dls-module__textWrap___3wMeN adChoicesIcon">AdChoices</a></li>
+                                                        <li><a class="axp-footer__dls-module__textWrap___3wMeN">Security Center</a></li>
+                                                        <li><a class="axp-footer__dls-module__textWrap___3wMeN">Card Agreements</a></li>
+                                                        <li><a class="axp-footer__dls-module__textWrap___3wMeN">Servicemember Benefits</a></li>
+                                                        <li><a class="axp-footer__dls-module__textWrap___3wMeN">Site Map</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="axp-footer__dls-module__body1___sfUeR axp-footer__dls-module__col___9B4qP axp-footer__dls-module__colXs12___29EFm  axp-footer__dls-module__colXl12___1zzRt">
+                                                <div class="axp-footer__dls-module__padB___29gTP">
+                                                    <div class=""><span class=""></span>
+                                                        <p> All users of our online services are subject to our Privacy
+                                                            Statement and
+                                                            agree to be bound by the Terms of Service. Please review.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="axp-footer__dls-module__padB___29gTP">
+                                                    <div class=""><span class=""></span>
+                                                        <p> © 2021 American Express. All rights reserved </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</body>
+
+</html>
